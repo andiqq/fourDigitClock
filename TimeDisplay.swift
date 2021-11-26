@@ -1,6 +1,6 @@
 // class TimeDisplay defines the program loop (while true), gets the time from localtime struct formatted as array of Int
 // each of the first four digits of the timestring that is stored in "time" is copied to the corresponding position in the display
-// the flashing dot appears after the second digit (position 1) and is calculated as seconds mod 2, so that it is on in off and on in even seconds
+// the flashing dot appears after the second digit (position 1) and is calculated as seconds mod 2, so that it is off in odd and on in even seconds
 
 class TimeDisplay: Display {
 	
